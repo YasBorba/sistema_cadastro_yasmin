@@ -165,7 +165,7 @@ if (isset($_GET['edit_id'])) {
                 <img src="<?php echo $fornecedor['imagem']; ?>" alt="Imagem atual do fornecedor" class="update-image">
             <?php endif; ?>
             <br>
-            <button type="submit"><?php echo $fornecedores ? 'Atualizar' : 'Cadastrar'; ?></button>
+            <button type="submit"><?php echo $fornecedores ? 'Cadastrar' : 'Cadastrar'; ?></button>
         </form>
 
         <!-- Exibe mensagens de sucesso ou erro -->
